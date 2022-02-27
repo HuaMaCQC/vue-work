@@ -1,21 +1,26 @@
+<!-- 網頁的HTML 碼 -->
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <HeadA />
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
+<!-- 程式碼 碼 -->
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import HeadA from './components/HeadA.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    HeadA,
   }
 }
 </script>
 
+<!-- css -->
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
