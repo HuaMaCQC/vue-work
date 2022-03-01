@@ -1,21 +1,24 @@
 <!-- 網頁的HTML 碼 -->
 <template>
   <div id="app">
-    <HeadA />
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Title />
+    <Minu />
+    <Content />
   </div>
 </template>
 
 <!-- 程式碼 碼 -->
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import HeadA from './components/HeadA.vue'
+import Content from './components/Content.vue';
+import Minu from './components/Minu.vue';
+import Title from './components/Title.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    HeadA,
+    Title,
+    Minu,
+    Content,
   }
 }
 </script>
@@ -28,6 +31,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
